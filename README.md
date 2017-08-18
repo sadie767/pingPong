@@ -6,8 +6,11 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
-
+_{This program will:}_
+* _count up to the inputted number: input:2 output:1,2_
+* _display numbers that are divisible by 3 as "ping": input:3 output:"ping"_
+* _display numbers that are divisible by 5 as "pong": input:5 output:"pong"_
+* _display numbers that are divisible by 3 and 5 as "pingpong": input:15 output:"pingpong"_
 ## Setup/Installation Requirements
 
 * _open github and copy the project's url_
@@ -17,7 +20,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{curently it only lists numbers}_
 
 ## Support and contact details
 
