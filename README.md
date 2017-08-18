@@ -20,7 +20,7 @@ _{This program will:}_
 
 ## Known Bugs
 
-_{curently it only lists numbers}_
+_{curently it only lists inputted numbers at the bottom and I have not been able to get my loops to communicate in order to implement the ping-pong replacement}_
 
 ## Support and contact details
 

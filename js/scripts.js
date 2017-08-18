@@ -8,6 +8,7 @@ $(document).ready(function() {
     for (var i=1; i <= 20; i++) {
       numbers.push(i)
       $("#result").append("<li>" + i + "</li>");
+    }
       numbers.forEach(function(three) {
         if (three % 3 === 0) {
           three = "ping";
@@ -26,10 +27,8 @@ $(document).ready(function() {
         }
         return both;
       });
-      }
     var numbers = numbers.slice(0, userInput);
     var stringNumbers = numbers.toString();
-    var splitNumbers = stringNumbers.split("");
 
     result.show();
     result.append(stringNumbers);
