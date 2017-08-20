@@ -3,34 +3,36 @@ $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("#userInput").val());
-    var result = $("#result");
     var numbers = [];
-    for (var i=1; i <= 20; i++) {
-      numbers.push(i)
-      $("#result").append("<li>" + i + "</li>");
-    }
-      numbers.forEach(function(three) {
-        if (three % 3 === 0) {
-          three = "ping";
+    for (var i=1; i <= 100; i++) {
+      numbers.push(i);
+      if ((i % 3 === 0) && (i % 5 === 0)) {
+        var splice = numbers.splice(i-1, 1);
+        var string = i.toString
+        string = "pingpong";
+        numbers.push(string);
+      } else if (i % 3 === 0) {
+        var splice = numbers.splice(i-1, 1);
+        var string = i.toString();
+        string = "ping";
+        numbers.push(string);
+      } else if (i % 5 === 0) {
+        var splice = numbers.splice(i-1, 1);
+        var string = i.toString
+        string = "pong";
+        numbers.push(string);
+          }
+          else if ((i % 3 === 0) && (i % 5 === 0)) {
+            var splice = numbers.splice(i-1, 1);
+            var string = i.toString
+            string = "pingpong";
+            numbers.push(string);
+              }
+        var numberSliced = numbers.slice(0, userInput);
+        var result = $("#result");
+        $("#result").append("<li>" + i + "</li>");
         }
-        return three;
-      });
-      numbers.forEach(function(five) {
-        if (five % 5 === 0) {
-          five = "pong";
-        }
-        return five;
-      });
-      numbers.forEach(function(both) {
-        if ((both % 3 === 0) && (both % 5 === 0)) {
-          both = "ping-pong";
-        }
-        return both;
-      });
-    var numbers = numbers.slice(0, userInput);
-    var stringNumbers = numbers.toString();
-
-    result.show();
-    result.append(stringNumbers);
+    result.show(numberSliced);
+    result.append(numberSliced);
   });
 });
