@@ -18,10 +18,6 @@ _{This program will:}_
 * _open the project in atom for editing purposes_
 * _open the project's html page to enjoy the program on the internet_
 
-## Known Bugs
-
-_{curently it only lists inputted numbers at the bottom and I have not been able to get my loops to communicate in order to implement the ping-pong replacement}_
-
 ## Support and contact details
 
 _{questions? ideas? concerns? email: biffbangpow767@yahoo.com}_
