@@ -20,9 +20,12 @@ for (var i=1; i <= userInput; i++) {
     numbsNping.push(string);
   }
   else {
+    var splice = numbsNping.splice(i-1, 1);
+    var string = i.toString
+    string = i;
     numbsNping.push(i);
   }
-    $("#result").append("<li>" + numbsNping + "</li>")
+    $("#result").append("<li>" + string + "</li>")
 }
 }
 
