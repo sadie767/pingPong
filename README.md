@@ -1,12 +1,12 @@
-# _{numberPing!}_
+# _numberPing!_
 
-#### _{this application will take entered numbers and count up to that number from with with various pings and pongs}, {8-18-17}_
+#### _this application will take entered numbers and count up to that number from with with various pings and pongs, 8-18-17_
 
-#### By _**{Rebecca Dian McIntosh}**_
+#### By _**Rebecca Dian McIntosh**_
 
 ## Description
 
-_{This program will:}_
+_This program will:_
 * _count up to the inputted number: input:2 output:1,2_
 * _display numbers that are divisible by 3 as "ping": input:3 output:"ping"_
 * _display numbers that are divisible by 5 as "pong": input:5 output:"pong"_
@@ -20,14 +20,14 @@ _{This program will:}_
 
 ## Support and contact details
 
-_{questions? ideas? concerns? email: biffbangpow767@yahoo.com}_
+_questions? ideas? concerns? email: biffbangpow767@yahoo.com_
 
 ## Technologies Used
 
-_{the technologies used include HTML, CSS, and JavaScript}_
+_the technologies used include HTML, CSS, and JavaScript_
 
 ### License
 
-*{This software is licensed under the MIT license.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2017 **_{Rebecca Dian McIntosh}_**
+Copyright (c) 2017 **_Rebecca Dian McIntosh_**
